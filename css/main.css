@@ -1,1 +1,10 @@
 /* Place CSS styles here */
+.main-nav{
+    display: flex;
+    gap: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
