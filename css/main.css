@@ -18,8 +18,7 @@
 }
 .header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: end;
 }
 .portfolio-intro{
     width: 100%;
@@ -27,6 +26,10 @@
     margin-top: 0%;
     margin-bottom: 0%;
     background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../img/360_F_16691440_Qb0qIOvEVRBWLuzcacphsAVBRJ0ybUcr.jpg)
+}
+.intro-name{
+    font-size: xx-large;
+    color: black;
 }
 
 .mobile-image
@@ -36,4 +39,13 @@
 .portfolio-wrapper{
     padding-top: 32px;
     border-top: 1px solid black
+}
+.Gallerywork-team-list {
+    border: 2px;
+    border-color: black;
+}
+.about-text {
+    gap: 20x;
+    justify-content: center;
+    padding: 10px;
 }
