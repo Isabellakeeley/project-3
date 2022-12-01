@@ -15,6 +15,9 @@ img{
     clip-path: inset (50%);
     border: 0;
 }
+.home-page-img{
+    width: 100%;
+}
 .main-nav{
     display: flex;
     justify-content: end;
@@ -32,13 +35,6 @@ img{
 .header p{
     margin: 0;
     font-size: 45px;
-}
-.portfolio-intro{
-    width: 100%;
-    height: 550px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../img/360_F_16691440_Qb0qIOvEVRBWLuzcacphsAVBRJ0ybUcr.jpg)
 }
 .intro-name{
     font-size: xx-large;
@@ -71,8 +67,6 @@ img{
 .about-text {
     gap: 20x;
     padding: 10px;
-    display: flex;
-    columns: 1;
 }
 .portfolio-contact-form{
     display: flex;
