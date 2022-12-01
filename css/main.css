@@ -1,4 +1,8 @@
 /* Place CSS styles here */
+img{
+    width: 100%;
+    height: auto;
+}
 .sr-only{
     position: absolute;
     width: 1px;
@@ -14,11 +18,20 @@
 .main-nav{
     display: flex;
     justify-content: end;
+    align-items: center;
     gap: 15px;
+    }
+.main-nav a{
+    color: black;
 }
 .header{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-content: center;
+}
+.header p{
+    margin: 0;
+    font-size: 45px;
 }
 .portfolio-intro{
     width: 100%;
@@ -40,12 +53,45 @@
     padding-top: 32px;
     border-top: 1px solid black
 }
-.Gallerywork-team-list {
-    border: 2px;
-    border-color: black;
-}
+.gallery-team-list {
+        padding-left: 0;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-gap: 4px;
+      }
+      
+      @media (max-width: 999px) {
+        .gallery-team-list {
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            display: grid;
+        }
+    }
+      
 .about-text {
     gap: 20x;
-    justify-content: center;
     padding: 10px;
+    display: flex;
+    columns: 1;
+}
+.portfolio-contact-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about-text{
+    font-size: larger;
+
+}
+.about-img{
+    max-width: 20%;
+}
+.gallery-feature-image{
+    max-width: 20%;
+}
+
+
+.portfolio-footer {
+        padding: 10px;
+        margin: 10px
 }
